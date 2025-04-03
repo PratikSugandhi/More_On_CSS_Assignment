@@ -1,0 +1,30 @@
+<!-- Ques is 
+Create a simple webpage with an image and make the image circular using border-radius -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Circular Image</title>
+    <style>
+        /* Style to make the image circular */
+        .circular-image {
+            width: 200px; /* Set the width of the image */
+            height: 200px; /* Set the height to match the width */
+            border-radius: 50%; /* This makes the image circular */
+            object-fit: cover; /* Ensures the image covers the circle nicely */
+        }
+        body {
+            text-align: center; /* Center-align the content */
+            margin-top: 50px; /* Add some space at the top */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Simple Webpage</h1>
+    <img src="/assests/helper1.png" alt="Placeholder Image" class="circular-image">
+
+</body>
+</html>
